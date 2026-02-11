@@ -1,0 +1,15 @@
+{% extends "returns/base.html" %}
+{% block content %}
+  <h1>Returns Portal</h1>
+  <form method="post" action="{% url 'submit_lookup' %}">
+    {% csrf_token %}
+    <label>Order number</label>
+    <input name="order_number" required />
+    <label>Email or ZIP</label>
+    <input name="email_or_zip" required />
+    <button type="submit">Find order</button>
+  </form>
+  {% if error %}
+    <p role="alert">{{ error }}</p>
+  {% endif %}
+{% endblock %}

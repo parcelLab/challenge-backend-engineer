@@ -1,0 +1,84 @@
+{
+  "orders": [
+    {
+      "order_number": "RMA-1001",
+      "email": "alex@example.com",
+      "customer": {
+        "first_name": "Alex",
+        "last_name": "Meyer",
+        "address_line": "Hauptstrasse 12",
+        "address_line_extra": "Apt 4B",
+        "postal_code": "10115",
+        "city": "Berlin",
+        "region_code": "BE",
+        "country_code": "DE"
+      },
+      "zip": "10115",
+      "purchased_at": "2025-12-01T10:00:00Z",
+      "delivered_at": "2025-12-05T14:00:00Z",
+      "return_window_days": 30,
+      "items": [
+        {
+          "sku": "TSHIRT-BLK-M",
+          "name": "T-Shirt Black",
+          "category": "apparel",
+          "quantity": 1,
+          "quantity_returned": 0,
+          "price": 29.99,
+          "digital": false,
+          "final_sale": false
+        },
+        {
+          "sku": "EBOOK-RETURNS",
+          "name": "Returns E-Book",
+          "category": "digital",
+          "quantity": 1,
+          "quantity_returned": 0,
+          "price": 9.99,
+          "digital": true,
+          "final_sale": false
+        }
+      ]
+    },
+    {
+      "order_number": "RMA-1002",
+      "email": "lee@example.com",
+      "customer": {
+        "first_name": "Lee",
+        "last_name": "Schmidt",
+        "address_line": "Rosental 45",
+        "address_line_extra": "c/o Office",
+        "postal_code": "80331",
+        "city": "Munich",
+        "region_code": "BY",
+        "country_code": "DE"
+      },
+      "zip": "80331",
+      "purchased_at": "2025-10-01T10:00:00Z",
+      "delivered_at": "2025-10-05T14:00:00Z",
+      "return_window_days": 30,
+      "items": [
+        {
+          "sku": "SHOES-CLR-42",
+          "name": "Clearance Shoes",
+          "category": "footwear",
+          "quantity": 1,
+          "quantity_returned": 0,
+          "price": 49.99,
+          "digital": false,
+          "final_sale": true
+        },
+        {
+          "sku": "JACKET-GRN-L",
+          "name": "Green Jacket",
+          "category": "apparel",
+          "quantity": 1,
+          "quantity_returned": 1,
+          "price": 89.99,
+          "digital": false,
+          "final_sale": false
+        }
+      ]
+    }
+  ]
+}
