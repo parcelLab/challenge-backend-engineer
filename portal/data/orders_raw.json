@@ -34,7 +34,6 @@
       "zip": "10115",
       "order_date": "2025-12-01T10:00:00Z",
       "delivered_at": "2025-12-05T14:00:00Z",
-      "return_window_days": 30,
       "fulfillments": [
         {
           "tracking_number": "DE123456789",
@@ -124,7 +123,6 @@
       "zip": "80331",
       "order_date": "2025-10-01T10:00:00Z",
       "delivered_at": "2025-10-05T14:00:00Z",
-      "return_window_days": 30,
       "fulfillments": [
         {
           "tracking_number": "1Z999AA10123456784",
